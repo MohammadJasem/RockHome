@@ -1,0 +1,31 @@
+<app-loader></app-loader>
+<app-header></app-header>
+<div class="content-wrapper">
+    <div class="container-fluid">
+        <div class="row mt-3"></div>
+        <div class="row mt-3"></div>
+        <div class="mt-5 row">
+            <div class="col-md-4 col" *ngFor="let p of property.images[0].image">
+                <div class="card p-3">
+                    <div class="d-flex flex-row mb-3"><img src="{{p.src}}" height="300">
+                        <div class="d-flex flex-column ml-2"><span></span><span class="text-black-50"></span><span class="ratings"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col">
+                <div class="card p-3">
+                    <h6>price: {{property.price}} $</h6>
+                    <h6>referent: {{property.referent}}</h6>
+                    <h6>settlement: {{property.settlement}}</h6>
+                    <h6>size: {{property.size}}</h6>
+                    <h6>description: {{property.description}}</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<app-footer></app-footer>

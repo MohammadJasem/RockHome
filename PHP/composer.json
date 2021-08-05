@@ -1,0 +1,19 @@
+{
+    "autoload": {
+        "psr-4": {
+            "app\\": "."
+        }
+    },
+    "name": "vendor/bt_vendor",
+    "description": "Shoparize Test Task",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Muhammad Jassem",
+            "email": "mohammadjasemmzj@gmail.com"
+        }
+    ],
+    "require": {
+        "laravie/parser": "^2.0"
+    }
+}
